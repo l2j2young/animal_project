@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>고양이 상세정보</title>
+    <!--외부 스타일시트 적용-->
+    <link rel="stylesheet" href="../style.css">
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Pretendard", "Malgun Gothic", sans-serif;
+        background-color: #fffceb;
+        margin: 0;
+        padding: 30px 20px;
+      }
+
+      h2, h3 {
+        color: #aa6f39;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #fffaf3;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      th, td {
+        border: 1px solid #ddd;
+        padding: 12px 16px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #fff1a6;
+      }
+
+      td img {
+        border-radius: 12px;
+      }
+
+      iframe {
+        margin-top: 20px;
+        border: 3px solid #ffeb85;
+        border-radius: 10px;
+      }
+
+      a {
+        color: #ff8800;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!--고양이 상세정보 제목-->
+    <h2>고양이 상세정보</h2>
+    <hr style="width: 80%; border: 1px solid #ffe27a;">
+    <!--외부링크 사용 정보들-->
+    <h3> 대표정보</h3>
+    <ul>
+      <li>
+        <a href="https://terms.naver.com/entry.naver?docId=1062053&cid=40942&categoryId=32624" target="_blank">
+          두산백과 고양이 정보
+        </a>
+      </li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>대표이미지</th>
+          <th>이름</th>
+          <th>구분</th>
+          <th>평균 크기</th>
+          <th>특징</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="../media/animal1.jpg" alt="Cat" width="150" height="150"></td>
+          <td>고양이</td>
+          <td>포유류</td>
+          <td>45cm</td>
+          <td>독립적이고 유연하며 사냥본능이 강하다</td>
+        </tr>
+      </tbody>
+    </table>
+<!--고양이 동영상-->
+    <h3>잉어 먹는 귀여운 고양이 영상</h3>
+    <iframe width="600" height="450"
+    src="https://www.youtube.com/embed/ET0rV79uFDQ"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+  </body>
+</html>
